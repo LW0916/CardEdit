@@ -1,0 +1,135 @@
+{
+    "myApp":
+              {
+              "title": "我的应用",
+              "data": [
+                       {
+                       "itemId": "A01",
+                       "title": "卡片1"
+                       },
+                       {
+                       "itemId": "A02",
+                       "title": "卡片2"
+                       },
+                       {
+                       "itemId": "B02",
+                       "title": "体育2"
+                       },
+                       {
+                       "itemId": "B03",
+                       "title": "体育3"
+                       },
+                       {
+                       "itemId": "C03",
+                       "title": "游戏3"
+                       }
+                       ]
+              },
+    "allApp": [
+                {
+                "title": "卡片",
+                "data": [
+                         {
+                         "itemId": "A01",
+                         "title": "卡片1"
+                         },
+                         {
+                         "itemId": "A02",
+                         "title": "卡片2"
+                         },
+                         {
+                         "itemId": "A03",
+                         "title": "卡片3"
+                         },
+                         {
+                         "itemId": "A04",
+                         "title": "卡片4"
+                         },
+                         {
+                         "itemId": "A05",
+                         "title": "卡片5"
+                         },
+                         {
+                         "itemId": "A06",
+                         "title": "卡片6"
+                         },
+                         {
+                         "itemId": "A07",
+                         "title": "卡片7"
+                         },
+                         {
+                         "itemId": "A08",
+                         "title": "卡片8"
+                         },
+                         {
+                         "itemId": "A09",
+                         "title": "卡片9"
+                         },
+                         {
+                         "itemId": "A10",
+                         "title": "卡片10"
+                         },
+                         {
+                         "itemId": "A11",
+                         "title": "卡片11"
+                         },
+                         {
+                         "itemId": "A12",
+                         "title": "卡片12"
+                         }
+                         ]
+                },{
+                "title": "体育",
+                "data": [
+                         {
+                         "itemId": "B01",
+                         "title": "体育1"
+                         },
+                         {
+                         "itemId": "B02",
+                         "title": "体育2"
+                         },
+                         {
+                         "itemId": "B03",
+                         "title": "体育3"
+                         },
+                         {
+                         "itemId": "B04",
+                         "title": "体育4"
+                         },
+                         {
+                         "itemId": "B05",
+                         "title": "体育5"
+                         },
+                         {
+                         "itemId": "B06",
+                         "title": "体育6"
+                         },
+                         {
+                         "itemId": "B07",
+                         "title": "体育7"
+                         }
+                         ]
+                },{
+                "title": "游戏",
+                "data": [
+                         {
+                         "itemId": "C01",
+                         "title": "游戏1"
+                         }, {
+                         "itemId": "C02",
+                         "title": "游戏2"
+                         }, {
+                         "itemId": "C03",
+                         "title": "游戏3"
+                         }, {
+                         "itemId": "C04",
+                         "title": "游戏4"
+                         }, {
+                         "itemId": "C05",
+                         "title": "游戏5"
+                         }
+                         ]
+                }
+               ]
+}

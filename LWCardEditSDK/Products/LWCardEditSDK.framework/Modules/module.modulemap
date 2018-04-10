@@ -1,0 +1,6 @@
+framework module LWCardEditSDK {
+  umbrella header "LWCardEditSDK.h"
+
+  export *
+  module * { export * }
+}

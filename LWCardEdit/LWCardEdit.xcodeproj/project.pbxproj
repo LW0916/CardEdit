@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D83CB4F2074641100AE0951 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83CB4E2074641100AE0951 /* AppDelegate.m */; };
+		3D83CB522074641100AE0951 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83CB512074641100AE0951 /* ViewController.m */; };
+		3D83CB572074641100AE0951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D83CB562074641100AE0951 /* Assets.xcassets */; };
+		3D83CB5D2074641100AE0951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83CB5C2074641100AE0951 /* main.m */; };
+		3D83CB672074641100AE0951 /* LWCardEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83CB662074641100AE0951 /* LWCardEditTests.m */; };
+		3D83CB722074641100AE0951 /* LWCardEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83CB712074641100AE0951 /* LWCardEditUITests.m */; };
+		3D83CC0720749FD400AE0951 /* LWCardEditSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D83CC0120749F1000AE0951 /* LWCardEditSDK.framework */; };
+		3D83CC192074A8A400AE0951 /* LWCardEditSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D83CC0120749F1000AE0951 /* LWCardEditSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D83CB632074641100AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CB422074641100AE0951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83CB492074641100AE0951;
+			remoteInfo = LWCardEdit;
+		};
+		3D83CB6E2074641100AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CB422074641100AE0951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83CB492074641100AE0951;
+			remoteInfo = LWCardEdit;
+		};
+		3D83CC0020749F1000AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D83CB89207464E700AE0951;
+			remoteInfo = LWCardEditSDK;
+		};
+		3D83CC0220749F1000AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D83CB92207464E700AE0951;
+			remoteInfo = LWCardEditSDKTests;
+		};
+		3D83CC0420749F2600AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83CB88207464E700AE0951;
+			remoteInfo = LWCardEditSDK;
+		};
+		3D83CC1A2074A8A400AE0951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83CB88207464E700AE0951;
+			remoteInfo = LWCardEditSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D83CC1C2074A8A400AE0951 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D83CC192074A8A400AE0951 /* LWCardEditSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D83CB4A2074641100AE0951 /* LWCardEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWCardEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83CB4D2074641100AE0951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D83CB4E2074641100AE0951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D83CB502074641100AE0951 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D83CB512074641100AE0951 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D83CB562074641100AE0951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D83CB5B2074641100AE0951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D83CB5C2074641100AE0951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D83CB622074641100AE0951 /* LWCardEditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWCardEditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83CB662074641100AE0951 /* LWCardEditTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCardEditTests.m; sourceTree = "<group>"; };
+		3D83CB682074641100AE0951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D83CB6D2074641100AE0951 /* LWCardEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWCardEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83CB712074641100AE0951 /* LWCardEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCardEditUITests.m; sourceTree = "<group>"; };
+		3D83CB732074641100AE0951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LWCardEditSDK.xcodeproj; path = ../LWCardEditSDK/LWCardEditSDK.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D83CB472074641100AE0951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83CC0720749FD400AE0951 /* LWCardEditSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB5F2074641100AE0951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB6A2074641100AE0951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D83CB412074641100AE0951 = {
+			isa = PBXGroup;
+			children = (
+				3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */,
+				3D83CB4C2074641100AE0951 /* LWCardEdit */,
+				3D83CB652074641100AE0951 /* LWCardEditTests */,
+				3D83CB702074641100AE0951 /* LWCardEditUITests */,
+				3D83CB4B2074641100AE0951 /* Products */,
+				3D83CC0620749FD400AE0951 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D83CB4B2074641100AE0951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D83CB4A2074641100AE0951 /* LWCardEdit.app */,
+				3D83CB622074641100AE0951 /* LWCardEditTests.xctest */,
+				3D83CB6D2074641100AE0951 /* LWCardEditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D83CB4C2074641100AE0951 /* LWCardEdit */ = {
+			isa = PBXGroup;
+			children = (
+				3D83CB4D2074641100AE0951 /* AppDelegate.h */,
+				3D83CB4E2074641100AE0951 /* AppDelegate.m */,
+				3D83CB502074641100AE0951 /* ViewController.h */,
+				3D83CB512074641100AE0951 /* ViewController.m */,
+				3D83CB562074641100AE0951 /* Assets.xcassets */,
+				3D83CB5B2074641100AE0951 /* Info.plist */,
+				3D83CB5C2074641100AE0951 /* main.m */,
+			);
+			path = LWCardEdit;
+			sourceTree = "<group>";
+		};
+		3D83CB652074641100AE0951 /* LWCardEditTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D83CB662074641100AE0951 /* LWCardEditTests.m */,
+				3D83CB682074641100AE0951 /* Info.plist */,
+			);
+			path = LWCardEditTests;
+			sourceTree = "<group>";
+		};
+		3D83CB702074641100AE0951 /* LWCardEditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D83CB712074641100AE0951 /* LWCardEditUITests.m */,
+				3D83CB732074641100AE0951 /* Info.plist */,
+			);
+			path = LWCardEditUITests;
+			sourceTree = "<group>";
+		};
+		3D83CBFA20749F1000AE0951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D83CC0120749F1000AE0951 /* LWCardEditSDK.framework */,
+				3D83CC0320749F1000AE0951 /* LWCardEditSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D83CC0620749FD400AE0951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D83CB492074641100AE0951 /* LWCardEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83CB762074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEdit" */;
+			buildPhases = (
+				3D83CB462074641100AE0951 /* Sources */,
+				3D83CB472074641100AE0951 /* Frameworks */,
+				3D83CB482074641100AE0951 /* Resources */,
+				3D83CC1C2074A8A400AE0951 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D83CC0520749F2600AE0951 /* PBXTargetDependency */,
+				3D83CC1B2074A8A400AE0951 /* PBXTargetDependency */,
+			);
+			name = LWCardEdit;
+			productName = LWCardEdit;
+			productReference = 3D83CB4A2074641100AE0951 /* LWCardEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D83CB612074641100AE0951 /* LWCardEditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83CB792074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEditTests" */;
+			buildPhases = (
+				3D83CB5E2074641100AE0951 /* Sources */,
+				3D83CB5F2074641100AE0951 /* Frameworks */,
+				3D83CB602074641100AE0951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D83CB642074641100AE0951 /* PBXTargetDependency */,
+			);
+			name = LWCardEditTests;
+			productName = LWCardEditTests;
+			productReference = 3D83CB622074641100AE0951 /* LWCardEditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D83CB6C2074641100AE0951 /* LWCardEditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83CB7C2074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEditUITests" */;
+			buildPhases = (
+				3D83CB692074641100AE0951 /* Sources */,
+				3D83CB6A2074641100AE0951 /* Frameworks */,
+				3D83CB6B2074641100AE0951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D83CB6F2074641100AE0951 /* PBXTargetDependency */,
+			);
+			name = LWCardEditUITests;
+			productName = LWCardEditUITests;
+			productReference = 3D83CB6D2074641100AE0951 /* LWCardEditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D83CB422074641100AE0951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lw;
+				TargetAttributes = {
+					3D83CB492074641100AE0951 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D83CB612074641100AE0951 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D83CB492074641100AE0951;
+					};
+					3D83CB6C2074641100AE0951 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D83CB492074641100AE0951;
+					};
+				};
+			};
+			buildConfigurationList = 3D83CB452074641100AE0951 /* Build configuration list for PBXProject "LWCardEdit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D83CB412074641100AE0951;
+			productRefGroup = 3D83CB4B2074641100AE0951 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3D83CBFA20749F1000AE0951 /* Products */;
+					ProjectRef = 3D83CBF920749F1000AE0951 /* LWCardEditSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3D83CB492074641100AE0951 /* LWCardEdit */,
+				3D83CB612074641100AE0951 /* LWCardEditTests */,
+				3D83CB6C2074641100AE0951 /* LWCardEditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D83CC0120749F1000AE0951 /* LWCardEditSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LWCardEditSDK.framework;
+			remoteRef = 3D83CC0020749F1000AE0951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D83CC0320749F1000AE0951 /* LWCardEditSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LWCardEditSDKTests.xctest;
+			remoteRef = 3D83CC0220749F1000AE0951 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D83CB482074641100AE0951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83CB572074641100AE0951 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB602074641100AE0951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB6B2074641100AE0951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D83CB462074641100AE0951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83CB522074641100AE0951 /* ViewController.m in Sources */,
+				3D83CB5D2074641100AE0951 /* main.m in Sources */,
+				3D83CB4F2074641100AE0951 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB5E2074641100AE0951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83CB672074641100AE0951 /* LWCardEditTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83CB692074641100AE0951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83CB722074641100AE0951 /* LWCardEditUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D83CB642074641100AE0951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D83CB492074641100AE0951 /* LWCardEdit */;
+			targetProxy = 3D83CB632074641100AE0951 /* PBXContainerItemProxy */;
+		};
+		3D83CB6F2074641100AE0951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D83CB492074641100AE0951 /* LWCardEdit */;
+			targetProxy = 3D83CB6E2074641100AE0951 /* PBXContainerItemProxy */;
+		};
+		3D83CC0520749F2600AE0951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWCardEditSDK;
+			targetProxy = 3D83CC0420749F2600AE0951 /* PBXContainerItemProxy */;
+		};
+		3D83CC1B2074A8A400AE0951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LWCardEditSDK;
+			targetProxy = 3D83CC1A2074A8A400AE0951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D83CB742074641100AE0951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D83CB752074641100AE0951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D83CB772074641100AE0951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D83CB782074641100AE0951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEdit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEdit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D83CB7A2074641100AE0951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWCardEdit.app/LWCardEdit";
+			};
+			name = Debug;
+		};
+		3D83CB7B2074641100AE0951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWCardEdit.app/LWCardEdit";
+			};
+			name = Release;
+		};
+		3D83CB7D2074641100AE0951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWCardEdit;
+			};
+			name = Debug;
+		};
+		3D83CB7E2074641100AE0951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCardEditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.LWCardEditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWCardEdit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D83CB452074641100AE0951 /* Build configuration list for PBXProject "LWCardEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83CB742074641100AE0951 /* Debug */,
+				3D83CB752074641100AE0951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83CB762074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83CB772074641100AE0951 /* Debug */,
+				3D83CB782074641100AE0951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83CB792074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83CB7A2074641100AE0951 /* Debug */,
+				3D83CB7B2074641100AE0951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83CB7C2074641100AE0951 /* Build configuration list for PBXNativeTarget "LWCardEditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83CB7D2074641100AE0951 /* Debug */,
+				3D83CB7E2074641100AE0951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D83CB422074641100AE0951 /* Project object */;
+}
